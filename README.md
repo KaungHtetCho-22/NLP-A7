@@ -6,7 +6,7 @@ NLP assignments from AIT
 ## Task1
 ### Collecting data
 
-- Implemented web crawling through https://ait.ac.th/ but limited to 100 webpages and the datas were converted into pdf
+- Implemented web crawling through https://ait.ac.th/ but limited to 100 webpages and the datas were converted into pdf. There is one limitation, because when I tried to crawl large amount of webpage, the model doesn't work very well.
 
 - Prompt-template ==> "Welcome to the AIT Information Chatbot! I'm here to assist you with any questions you have about the Asian Institute of Technology (AIT).Whether you want to know about our academic programs, admissions process, campus facilities, or any other aspect of AIT, feel free to ask!"
 
@@ -26,5 +26,5 @@ NLP assignments from AIT
 ## Task3
 ### Web development and documentation
 
-- Users can type anything related to AIT and AIT GPT will respond accordingly, similar to ChatGPT. The chain dictionary has been separated into questions, answers, and chat message history. The website can be accessed through localhost:8000.
+- Users can type anything related to AIT and AIT GPT will respond accordingly, similar to ChatGPT. The chain dictionary has been separated into questions, answers, and chat message history and source data that is used for AIT gpt. The website can be accessed through localhost:8000.
 
